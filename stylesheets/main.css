@@ -1,18 +1,37 @@
+
 body {
-    background-color: #dae0ea;
+    background: url(images/image01.jpg);
+    font-family: 'Source Sans Pro', sans-serif;
+    /*background-color: black;*/
+    font-weight: bold;
 }
 
-.navvy {
-    width: auto;
+@media all and (min-width: 760px){
+ 
+    }
+
+#nb {
+    size: 70%;
     margin: auto;
-    border: 1px solid red;
+    padding-left: 24px
 }
+.navvy {
+    width: 1200px;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 70px;
+    margin: auto;
+    margin-top: 25px;
+    background-color: #fce341;
+   /*left: 30%;*/
+}
+    
+    
 
 .button {
-    background-color: #4CAF50; /* Green */
+     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
-    padding: px 32px;
+    padding: 16px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -21,15 +40,39 @@ body {
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
+    margin-top: 10px
+
+
 }
 
-.button {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #4CAF50;
+
+/*.button1 {
+    background-color: #4CAF50; 
+} 
+
+.button2 {
+    background-color: #4CAF50;
+} */
+
+.button1 {
+    background-color: #fce341;
+    color: #0072ac; 
+    font-weight: 500;
+    
 }
 
-.button:hover {
+.button1:hover {
+    background-color: #f49033;
+    color: white;
+}
+
+.button2 {
+    background-color: #fce341;
+    color: #0072ac; 
+     font-weight: 500;
+}
+
+.button2:hover {
     background-color: #4CAF50;
     color: white;
 }
