@@ -1,6 +1,6 @@
 
 body {
-    background: url(images/image01.jpg);
+    /*background: url(images/image01.jpg);*/
     font-family: 'Source Sans Pro', sans-serif;
     /*background-color: black;*/
     font-weight: bold;
@@ -13,7 +13,7 @@ body {
 #nb {
     size: 70%;
     margin: auto;
-    padding-left: 24px
+    padding-left: 4px;
 }
 .navvy {
     width: 1200px;
@@ -24,7 +24,7 @@ body {
     background-color: #fce341;
    /*left: 30%;*/
 }
-    
+
     
 
 .button {
@@ -45,20 +45,10 @@ body {
 
 }
 
-
-/*.button1 {
-    background-color: #4CAF50; 
-} 
-
-.button2 {
-    background-color: #4CAF50;
-} */
-
-.button1 {
+.button {
     background-color: #fce341;
     color: #0072ac; 
-    font-weight: 500;
-    
+    font-weight: 
 }
 
 .button1:hover {
@@ -66,13 +56,18 @@ body {
     color: white;
 }
 
-.button2 {
-    background-color: #fce341;
-    color: #0072ac; 
-     font-weight: 500;
-}
 
 .button2:hover {
     background-color: #4CAF50;
     color: white;
 }
+
+.button3:hover {
+    background-color: #ff8684
+;
+    color: white;
+    
+}
+    
+
+
