@@ -43,13 +43,18 @@ body {
 
 }
 
+#section-one {
+    opacity: 0;
+    text-align: center;
+}
+
 .bottom-images {
     padding-left: 20px;
 }
 
 .nico {
     color: white;
-    font-weight: 900;
+    font-weight: bolder;
     text-align: center;
 
 }
