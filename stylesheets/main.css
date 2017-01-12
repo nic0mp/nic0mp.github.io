@@ -27,7 +27,7 @@ body {
 
 .content-wrapper {
     width: 1000px;
-    height: 800px;
+    height: 700px;
     padding-top: 80px;
     margin: auto;
     background: url('../images/image02.jpg');
@@ -40,19 +40,43 @@ body {
     padding: 40px;
     background-color: rgba(255,255,255,.5);
     font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 .bottom-images {
     padding-left: 20px;
 }
 
-/*.retouch {
-    padding: 1px;
-    padding-left: 380px;
-    margin-top: 0;
+.nico {
+    color: white;
+    font-weight: 900;
+    text-align: center;
 
+}
+.top-a{
+    padding-left: 30px;
+}
 
+.bottom-a{
+    padding-left: 29px;
+}
+#desc {
+    text-align: center;
+
+}
+
+#surf {
+    padding-left: 4px;
+}
+/*.bcontent-inside {
+    height: 400px;
+    margin: 0 auto;
+    width: 900px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
 }*/
+
+
 
  .samps {
     width: 950px;
@@ -86,7 +110,7 @@ body {
 .button {
     background-color: #fce341;
     color: #0072ac; 
-    font-weight: 
+    
 }
 
 .button1:hover {
@@ -107,12 +131,11 @@ body {
 }
 
 .img-trns {
-    
     transition: all .5s;
 } 
 
 .img-trns:hover {
-
     transform: scale(2);
 }
+
 
