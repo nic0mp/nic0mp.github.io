@@ -7,7 +7,7 @@ body {
 }
 
 
-@media all and (min-width: 375px){
+@media all and (min-width: 768px){
  
     }
 
@@ -84,7 +84,7 @@ body {
 
 
 
- .samps {
+ /*.samps {
     width: 950px;
     font-family: 'Source Sans Pro', sans-serif;
     height: 700px;
@@ -93,8 +93,12 @@ body {
     background-color: #e1dee2;
     padding-left: 50px;
     padding-top: 25px;
-}
-   
+}*/
+.navvy .button {
+    /*padding-top: 25px;*/
+    margin-top: 10px;
+}   
+
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -107,8 +111,9 @@ body {
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
-    margin-top: 10px
+    margin-top: 150px
     font-weight: bolder;
+
 }
 
 .button a {
