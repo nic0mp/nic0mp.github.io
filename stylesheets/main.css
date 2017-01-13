@@ -7,7 +7,7 @@ body {
 }
 
 
-@media all and (min-width: 760px){
+@media all and (min-width: 375px){
  
     }
 
@@ -45,6 +45,7 @@ body {
 
 #section-one {
     opacity: 0;
+    /*display: none;*/
     text-align: center;
 }
 
@@ -95,12 +96,11 @@ body {
 }
    
 .button {
-     background-color: #4CAF50; /* Green */
+    background-color: #4CAF50; /* Green */
     border: none;
     color: white;
     padding: 16px 32px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
@@ -108,14 +108,28 @@ body {
     transition-duration: 0.4s;
     cursor: pointer;
     margin-top: 10px
+    font-weight: bolder;
+}
 
+.button a {
+    color: #2d8ec6;
+    text-decoration: none;
 
+}
+
+.button a:hover {
+    color: white;
 }
 
 .button {
     background-color: #fce341;
     color: #0072ac; 
-    
+}
+
+.button4 {
+    background-color: #d3dae5;
+    margin-left: 265px;
+     margin: none;
 }
 
 .button1:hover {
@@ -132,6 +146,11 @@ body {
 .button3:hover {
     background-color: #ff8684
 ;
+    color: white;
+}
+
+.button4:hover {
+    background-color: #7e9ccc;
     color: white;
 }
 

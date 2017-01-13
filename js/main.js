@@ -1,12 +1,19 @@
+//alert(7);
+
 $(document).on('ready', function(){
   
-  $('#section-one').animate({
-   'opacity': 1,
-    
-  });
+  // $('#section-one').animate({
+  //   'opacity': 1
+  // },10000);
  
-    /*$(".yo-click").click(function(){
+    $(".button4").click(function(){
+        
+        // $('#section-one').toggle();
+        //$('#section-one').slideToggle();
+
       $('#section-one').animate({
-      'opacity': 1,
-    });*/
-})
+        'opacity': 1
+       },2000);
+    });
+
+}); // Closes your doc.ready
